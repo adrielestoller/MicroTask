@@ -1,8 +1,7 @@
-function changeTaskStatus() {
-  var e = document.querySelector(".task-icon");
-  if(e.classList.contains("fa-regular")) {
-    e.classList.replace("fa-regular", "fa-solid");
-  } else {
-    e.classList.replace("fa-solid", "fa-regular");
+  function changeTaskStatus(clickedIcon) {
+    if(clickedIcon.classList.contains("fa-regular")) {
+      clickedIcon.classList.replace("fa-regular", "fa-solid");
+    } else {
+      clickedIcon.classList.replace("fa-solid", "fa-regular");
+    }
   }
-}
