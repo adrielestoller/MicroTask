@@ -8,6 +8,8 @@ Aluno: Adriel Estoller
 
 Meu Primeiro Web App - Individual
 
+Site operando via Netlify: https://microtaskapp.netlify.app/
+
 Descrição: MicroTask é uma aplicação web simples e direta para ajudar microempresas a gerenciar suas tarefas diárias de maneira eficiente.
 
 * Recursos Principais:
