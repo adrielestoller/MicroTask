@@ -37,9 +37,9 @@ export default function User() {
             </div>
             <div className="mt-4 flex flex-col gap-3">
                 <h2 className="text-center text-xl">Tasks</h2>
-                <TaskCard title="Task #44" contributors={["/profile.jpg"]} />
-                <TaskCard title="Task #44" contributors={["/profile.jpg"]} />
-                <TaskCard title="Task #44" contributors={["/profile.jpg"]} />
+                <TaskCard title="Task #00" contributors={["/profile.jpg"]} />
+                <TaskCard title="Task #00" contributors={["/profile.jpg"]} />
+                <TaskCard title="Task #00" contributors={["/profile.jpg"]} />
             </div>
         </main>
     );
