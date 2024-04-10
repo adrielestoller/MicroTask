@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     },
     title: "MicroTask",
     description: "Useful and easy tasks manager fot your team.",
-    icons: [{ rel: "icon", url: "/favicon.ico" }],
+    icons: [{ rel: "icon", url: "/favicon.png" }],
 };
 
 export default function RootLayout({
