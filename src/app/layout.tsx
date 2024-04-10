@@ -9,6 +9,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+    manifest: "/manifest.json",
+    appleWebApp: {
+        capable: true,
+        statusBarStyle: "default",
+        title: "MicroTask",
+    },
     title: "MicroTask",
     description: "Useful and easy tasks manager fot your team.",
 };
@@ -20,6 +26,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <link rel="icon" href="/favicon.ico" sizes="any" />
             <body className={poppins.className}>
                 <Navbar />
                 {children}
