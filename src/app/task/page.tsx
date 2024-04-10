@@ -1,5 +1,5 @@
 import Flags from "@/components/flags";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function Task() {
     return (
@@ -21,45 +21,45 @@ export default function Task() {
                     <p className="text-sm">Contributors:</p>
                     <div className="mt-2 flex flex-row gap-2">
                         <Image
-                            className="w-5 h-5 rounded-full"
+                            className="rounded-full"
                             src="/profile.jpg"
-                            width={100}
-                            height={100}
+                            width={40}
+                            height={40}
                             alt="contributor"
                         />
                         <Image
-                            className="w-5 h-5 rounded-full"
+                            className="rounded-full"
                             src="/profile.jpg"
-                            width={100}
-                            height={100}
+                            width={40}
+                            height={40}
                             alt="contributor"
                         />
                         <Image
-                            className="w-5 h-5 rounded-full"
+                            className="rounded-full"
                             src="/profile.jpg"
-                            width={100}
-                            height={100}
+                            width={40}
+                            height={40}
                             alt="contributor"
                         />
                         <Image
-                            className="w-5 h-5 rounded-full"
+                            className="rounded-full"
                             src="/profile.jpg"
-                            width={100}
-                            height={100}
+                            width={40}
+                            height={40}
                             alt="contributor"
                         />
                         <Image
-                            className="w-5 h-5 rounded-full"
+                            className="rounded-full"
                             src="/profile.jpg"
-                            width={100}
-                            height={100}
+                            width={40}
+                            height={40}
                             alt="contributor"
                         />
                         <Image
-                            className="w-5 h-5 rounded-full"
+                            className="rounded-full"
                             src="/profile.jpg"
-                            width={100}
-                            height={100}
+                            width={40}
+                            height={40}
                             alt="contributor"
                         />
                     </div>

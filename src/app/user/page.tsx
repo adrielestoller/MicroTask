@@ -1,5 +1,5 @@
 import { Github, Linkedin, Instagram, Twitter } from "lucide-react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import TaskCard from "../../components/taskcard";
 import Link from "next/link";
 
@@ -8,10 +8,10 @@ export default function User() {
         <main className="w-auto m-2 sm:w-1/2 sm:mx-auto">
             <div className="w-full flex flex-col gap-3 items-center">
                 <Image
-                    className="w-48 border-4 border-zinc-900 rounded-full"
+                    className="border-8 border-zinc-900 rounded-full"
                     src="/profile.jpg"
-                    width={1000}
-                    height={1000}
+                    width={250}
+                    height={250}
                     alt="user photo"
                 />
                 <div className="flex flex-col items-center">

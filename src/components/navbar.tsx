@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -16,11 +16,11 @@ export default function Navbar() {
                         href="/user"
                         className="flex items-center bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
                     >
-                        <div className="relative h-8 w-8 md:h-10 md:w-10">
+                        <div className="relative md:h-10 md:w-10">
                             <Image
                                 className="rounded-full"
-                                layout="fill"
-                                objectFit="cover"
+                                width={100}
+                                height={100}
                                 src="/profile.jpg"
                                 alt="User profile image"
                             />

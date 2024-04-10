@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Flags from "./flags";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 interface TaskCardProps {
     title: string;
@@ -21,11 +21,11 @@ export default function TaskCard({ title, contributors }: TaskCardProps) {
                     {contributors.map((contributor, index) => {
                         return (
                             <Image
-                                className="h-5 w-5 rounded-full"
+                                className="rounded-full"
                                 key={index}
                                 src={contributor}
-                                width={100}
-                                height={100}
+                                width={30}
+                                height={30}
                                 alt="contributor image"
                             />
                         );
