@@ -1,12 +1,10 @@
 # MicroTask
 
-Página entregável da atividade de Coding: Mobile.
+Página entregável do projeto de Coding: Mobile.
 
 Prof. responsável da disciplina: Geraldo Gomes
 
 Aluno: Adriel Estoller
-
-Meu Primeiro Web App - Individual
 
 Site operando via Netlify: https://microtaskapp.netlify.app/
 
