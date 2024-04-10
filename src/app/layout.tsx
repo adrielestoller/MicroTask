@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/navbar";
+import { url } from "inspector";
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
     },
     title: "MicroTask",
     description: "Useful and easy tasks manager fot your team.",
+    icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 export default function RootLayout({
@@ -26,7 +28,6 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <link rel="icon" href="/favicon.ico" sizes="any" />
             <body className={poppins.className}>
                 <Navbar />
                 {children}
